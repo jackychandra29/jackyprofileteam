@@ -1,0 +1,243 @@
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    height: 70px;
+    color: #fff;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.header-left {
+    float: left;
+    font-family: "Brush Script";
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+.header-right{
+    float: right;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display:inline-block;
+}
+.menu {
+    opacity: 0.8;
+}
+
+.header-right:hover{
+    opacity: 1;
+}
+
+.container{
+    padding:0 15px;
+    margin: 0 auto;
+
+}
+/* --------------------- TOP WRAPPER --------------------- */
+.top-wrapper{
+    background-image: url(https://www.capcitycreative.ca/wp-content/uploads/2017/01/slider-background.jpeg);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: 300px;
+}
+
+.top-wrapper h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.top-wrapper p{
+    color: #e48f35;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 12px 24px;
+    font-weight: 600;
+}
+/*  BUTTON  */
+.button-wrapper{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn{
+    display: inline-block;
+    opacity: 0.9;
+}
+
+.progate{
+    background-color: #2b546a;
+    color: white;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-right: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.kotakode{
+    background-color: #63a16c;
+    color: white;
+    text-decoration: none;
+    padding:10px 30px;
+    font-weight: bold;
+    border-radius: 10px; 
+}
+
+.btn:hover{
+    opacity: 1;
+}
+/* --------------------- TOP WRAPPER --------------------- */
+
+/* --------------------- BIO WRAPPER --------------------- */
+.bio-wrapper{
+    background-color:#f7f7f7;
+    height: 600px;
+    text-align: center;
+}
+
+.bio-label h2{
+    padding-top: 50px;
+    margin-bottom:35px;
+    font-size: 30px;
+    color: #292929;
+    font-weight: normal;
+}
+
+.bio{
+    float: left;
+    width: 20%;
+}
+
+.bio p{
+    margin-top: 10px;
+}
+
+.bio span{
+    font-weight: bold;
+}
+
+.bio-icon{
+    position: relative;
+}
+
+.bio-icon img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bio-icon img:hover{
+    -webkit-transform:scale(1.1); 
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1);
+    transition-duration: 0.5s;
+
+}
+
+
+
+/* --------------------- DETAIL BIO WRAPPER --------------------- */
+.profil-wrapper{
+    background-color: white;
+    margin-top: 20px;
+}
+
+.profil-detail{
+    margin-bottom: 25px;
+}
+
+.profil-icon-left img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+}
+
+.profil-text-left{
+    text-align: left;
+    padding-top: 15px;
+}
+
+.profil-text-left h1{
+    margin-bottom: 10px;
+}
+
+.profil-text-left span{
+    font-weight: lighter;
+}
+
+.profil-text-left p{
+    font-size: 17px;
+}
+
+/*right*/
+
+.profil-icon-right img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-left:25px
+}
+
+.profil-text-right{
+    text-align: right;
+    padding-top: 15px;
+}
+
+.profil-text-right h1{
+    margin-bottom: 10px;
+}
+
+.profil-text-right span{
+    font-weight: lighter;
+}
+
+.profil-text-right p{
+    font-size: 17px;
+}
+
+
+footer {
+    background-color: rgba(34, 49, 52, 0.9);
+    width: 100%;
+    height: 65px;
+}
+
+
+footer h1 {
+    color: #e5e9e8;
+    float:left;
+    font-size: larger;
+    padding:20px;
+}
+footer a{
+    float: right;
+} 
+
+button {
+    padding: 15px 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin:7px 10px;
+}
+
+button:active {
+    position:relative;
+    top: 7px;
+    box-shadow: none;
+}

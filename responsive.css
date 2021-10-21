@@ -1,0 +1,74 @@
+@media all and (max-width: 1000px){
+    .bio {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .profil-wrapper {
+        padding-top: 325px;
+    }
+    .profil-wrapper p{
+        font-size: 14px;
+    }
+    .top-wrapper h1{
+        font-size: 32px;
+    }
+    .heading h2 {
+        font-size: 20px;
+    }
+}
+
+@media all  and (max-width: 570px) {
+    .bio {
+        width: 100%;
+        text-align: center;
+        padding-right: 10px;
+    }
+    .btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .top-wrapper {
+        text-align: left;
+        padding-bottom: 200px;
+    }
+    .kotakode {
+        padding: 10px 0px;
+    }
+    .progate {
+        padding: 10px 0px;
+    }
+    .profil-wrapper p{
+        padding-top: 50px;
+        padding: 20px 0px;
+    }
+    .profil-wrapper {
+        font-size: medium;
+    }
+    .profil-text-left {
+        text-align: right;
+    }
+    .profil-text-right {
+        text-align: left;
+    }
+    button {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin:1px 2px;
+    opacity: 0.8;
+    }
+    .header-left {
+        font-size: 13px;
+        padding: 10px 10px;
+        padding-top: 20px;
+    }
+    footer h1 {
+        color: #e5e9e8;
+        float:left;
+        font-size: small;
+        padding:10px;
+    }
+    footer a{
+        float: right;
+    } 
+}
